@@ -60,3 +60,6 @@ State   Reliability
 2. 顯示 可用解數量
 3. 繪製 (State, Reliability) 表格，State 0 代表 未連接，1 代表連接  
    如 (0100010, 0.002048)： (e13, e35 邊連線，運作可靠度為 0.2048%)
+
+## 資料參考
++ NTT Technical Review Vol. 16 No. 11 Nov. 2018 (附註 pdf)
