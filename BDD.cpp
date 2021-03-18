@@ -25,8 +25,8 @@ void ReliabilityFromGraph(vector<int> reach, int target, vector<vector<bool>> Gr
         // if nodes already reach the 'to' node the last time
         // then dfs done
         int dontCareCnt = 0;
-        for (char p : curPath)
-            if (p == '-') dontCareCnt++;
+        for (int i = 0; i < curPath.length(); i++)
+            if (curPath[i] == '-') dontCareCnt++;
 
         int iterCnt = pow(2, dontCareCnt);
         string iterPoss = string(dontCareCnt, '0');
